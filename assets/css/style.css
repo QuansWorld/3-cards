@@ -14,10 +14,18 @@ h1 , button{
     display:flex;
 }
 
-.feature-item , .feature-item-1{
+.feature-item , .feature-item-1 , .feature-item-2, .feature-item-3{
     flex:1;
 }
 
 .feature-item-1{
     background-color: hsl(31, 77%, 52%);
+}
+
+.feature-item-2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.feature-item-3{
+    background-color:hsl(179, 100%, 13%) ;
 }
