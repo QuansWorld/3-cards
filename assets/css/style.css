@@ -10,6 +10,8 @@
 
 body{
     background-color:  hsl(0, 0%, 95%);
+    float:left;
+    
     
 }
 
@@ -45,6 +47,8 @@ body{
     width:212px;
     height: 125px;
 }
+
+
 .feature-grid{
     display:flex;
     width:920px;
