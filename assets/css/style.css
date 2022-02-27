@@ -1,3 +1,11 @@
+@media screen{
+    main{
+        max-width:1440px;
+        min-width:375px;
+
+    }
+    } 
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
@@ -15,9 +23,10 @@ body{
 } 
 
     p{
-    color:hsl(0, 0%, 95%);
+    color:hsla(0, 0%, 100%, 0.75);
     font-weight:400px;
     font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
 }
 .feature-grid{
     display:flex;
@@ -45,12 +54,25 @@ button{
     border-color: hsl(0, 0%, 95%);
 }
 
+.btn-1{
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 10px;
+    border-color: hsl(0, 0%, 95%);
+
+}
 
 
-@media screen{
-    main{
-        max-width:1440px;
-        min-width:375px;
+.btn-2{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 10px;
+    border-color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+}
 
-    }
-    } 
+.btn-3{
+    background-color:hsl(179, 100%, 13%) ;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 10px;
+    border-color: hsl(0, 0%, 95%);
+}
