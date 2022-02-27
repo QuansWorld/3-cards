@@ -11,13 +11,16 @@
 
 body{
     background-color:  hsl(0, 0%, 95%);
+    width:920px;
+    height:500px;
+    
 }
 
-.section{
+/* .section{
     display:flex;
     flex-direction: row;
     height: 250px;
-}
+} */
 
  h1{
     color: hsl(0, 0%, 95%);
