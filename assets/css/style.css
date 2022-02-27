@@ -24,9 +24,21 @@ body{
     padding-top:219px;
 }
 
-/* suv-icons{
+.suv-icons{
+    width:63.99px;
+    height:40px;
+    padding-top:219px;
+    padding-left: 615px;
+    position:absolute;
+}
 
-} */
+.luxury-icons{
+    width:64px;
+    height:40px;
+    padding-left: 921px;
+    padding-top:219px;
+    position:absolute
+}
 
  h1{
     color: hsl(0, 0%, 95%);
@@ -60,6 +72,7 @@ body{
     font-size: 15px;
     width:212px;
     height: 125px;
+    line-height:25px;
 }
 
 
@@ -67,8 +80,10 @@ body{
     display:flex;
     width:920px;
     height:500px;
-    padding-top:171px;;
-    
+    padding-top:171px;
+    padding: left 260px;
+    position:absolute;
+    border-radius: 8px;
 }
 
 .feature-item , .feature-item-1 , .feature-item-2, .feature-item-3{
