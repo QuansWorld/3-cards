@@ -11,8 +11,6 @@
 
 body{
     background-color:  hsl(0, 0%, 95%);
-    width:920px;
-    height:500px;
     
 }
 
@@ -34,9 +32,14 @@ body{
     font-weight:400px;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
+    width:212px;
+    height: 125px;
 }
 .feature-grid{
     display:flex;
+    width:920px;
+    height:500px;
+    
 }
 
 .feature-item , .feature-item-1 , .feature-item-2, .feature-item-3{
@@ -45,8 +48,6 @@ body{
 
 .feature-item-1{
     background-color: hsl(31, 77%, 52%);
-   padding: 15px;
-   margin:auto;
 
 }
 
