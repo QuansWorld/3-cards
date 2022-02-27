@@ -6,19 +6,13 @@
     }
     } 
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
 
 body{
     background-color:  hsl(0, 0%, 95%);
     
 }
 
-/* .section{
-    display:flex;
-    flex-direction: row;
-    height: 250px;
-} */
 
  h1{
     color: hsl(0, 0%, 95%);
@@ -90,3 +84,11 @@ body{
     width: 146px;
     height: 48px;
 }
+
+/* footer */
+.attribution { 
+    font-size: 11px;
+     text-align: center; 
+    }
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
