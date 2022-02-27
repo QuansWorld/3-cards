@@ -1,17 +1,16 @@
 @media screen{
-    main{
+    body{
         max-width:1440px;
         min-width:375px;
 
     }
-    } 
+} 
 
 
 
 body{
     background-color:  hsl(0, 0%, 95%);
     float:left;
-    
     
 }
 
@@ -47,7 +46,7 @@ body{
     width: 101px;
     height:48px;  
     line-height: 48px; 
-    padding-left: ;
+
 } 
 
 .second-heading{
@@ -74,6 +73,7 @@ body{
     height: 125px;
     line-height:25px;
 }
+
 
 
 .feature-grid{
@@ -120,7 +120,10 @@ body{
     border-color: hsl(0, 0%, 95%);
     width: 146px;
     height: 48px;
-
+    position:absolute;
+    left: calc(50% - 146px/2 - 339px);
+    top: calc(50% - 48px/2 + 199px);
+    
 }
 
 
@@ -131,6 +134,9 @@ body{
     color: hsl(184, 100%, 22%);
     width: 146px;
     height: 48px;
+    position: absolute;
+    left: calc(50% - 146px/2 - 32px);
+    top: 575px;
 }
 
 .btn-3{
@@ -140,6 +146,8 @@ body{
     border-color: hsl(0, 0%, 95%);
     width: 146px;
     height: 48px;
+    position: absolute;
+   
 }
 
 /* footer */
