@@ -15,13 +15,27 @@ body{
     
 }
 
+/* icons */
+
+.sedan-icons{
+    width:64px;
+    height:40px;
+    padding-left: 308px;
+    padding-top:219px;
+}
+
+/* suv-icons{
+
+} */
 
  h1{
     color: hsl(0, 0%, 95%);
     font-weight: 700px;
     font-family: "Lexend Deca";
     width: 101px;
-    height:48px;   
+    height:48px;  
+    line-height: 48px; 
+    padding-left: ;
 } 
 
 .second-heading{
@@ -53,6 +67,7 @@ body{
     display:flex;
     width:920px;
     height:500px;
+    padding-top:171px;;
     
 }
 
