@@ -39,13 +39,14 @@ body{
     position:absolute
 }
 
- h1{
+ h3{
     color: hsl(0, 0%, 95%);
     font-weight: 700px;
     font-family: "Big Shoulders Display", sans-serif;
     width: 101px;
     height:48px;  
     line-height: 48px; 
+    text-transform: uppercase;
 
 } 
 
@@ -55,6 +56,7 @@ body{
     font-family: "Big Shoulders Display", sans-serif;
     width: 68px;
     height:48px;
+    text-transform: uppercase;
 }
 
 .third-heading{
@@ -63,6 +65,8 @@ body{
     font-family: "Big Shoulders Display", sans-serif;
     width: 98px;
     height:48px;
+    text-transform: uppercase;
+    
 }
     p{
     color:hsla(0, 0%, 100%, 0.75);
@@ -80,14 +84,20 @@ body{
     display:flex;
     width:920px;
     height:500px;
-    padding-top:171px;
-    padding: left 260px;
+    /* padding-top:171px;
+    padding: left 260px; */
     position:absolute;
-    border-radius: 8px;
+    padding:20px;
 }
 
-.feature-item , .feature-item-1 , .feature-item-2, .feature-item-3{
+.feature-item , .feature-item-1 ,  .feature-item-3{
     flex:1;
+    border-radius:5px;
+}
+
+.feature-item-2{
+    flex:1;
+    
 }
 
 .feature-item-1{
@@ -109,7 +119,6 @@ body{
     width:307px;
 }
   
-
 
 .btn-1{
     color: hsl(31, 77%, 52%);
@@ -136,8 +145,9 @@ body{
     width: 146px;
     height: 48px;
     position: absolute;
-    left: calc(50% - 146px/2 - 32px);
-    top: 575px;
+    /* left: calc(50% - 146px/2 - 32px);
+    top: 575px; */
+    
     border: 2px solid #fff;
     border-radius: 30px;
     padding: 15px 20px;
