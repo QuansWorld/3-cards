@@ -92,7 +92,7 @@ body{
 
 .feature-item , .feature-item-1 ,  .feature-item-3{
     flex:1;
-    border-radius:5px;
+    border-radius:3px;
 }
 
 .feature-item-2{
