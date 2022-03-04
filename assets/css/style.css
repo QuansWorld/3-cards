@@ -10,9 +10,27 @@
 
 body{
     background-color:  hsl(0, 0%, 95%);
-    float:left;
-    
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
 }
+
+.container{
+    max-width:960px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.feature-grid{
+    display:grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-items: center;
+    align-items: center; */
+    position:absolute;
+    padding:20px;
+
+}
+
 
 /* icons */
 
@@ -49,7 +67,7 @@ body{
     height:48px;  
     line-height: 48px; 
     text-transform: uppercase;
-
+    font-size:40px;
 } 
 
 .second-heading{
@@ -59,6 +77,7 @@ body{
     width: 68px;
     height:48px;
     text-transform: uppercase;
+  
 }
 
 .third-heading{
@@ -68,6 +87,7 @@ body{
     width: 98px;
     height:48px;
     text-transform: uppercase;
+    font-size: 40px;
     
 }
     p{
@@ -82,15 +102,6 @@ body{
 
 
 
-.feature-grid{
-    display:inline-block;
-    width:920px;
-    height:500px;
-    /* padding-top:171px;
-    padding: left 260px; */
-    position:absolute;
-    padding:20px;
-}
 
 .feature-item , .feature-item-1 ,  .feature-item-3{
     flex:1;
@@ -131,8 +142,6 @@ body{
     left: calc(50% - 146px/2 - 339px);
     top: calc(50% - 48px/2 + 199px);   
     padding: 15px 20px;
-    cursor: pointer; 
-    transition: all 0.4s ease-in-out;
 }
 
 
@@ -146,10 +155,13 @@ body{
     position: absolute;
     /* left: calc(50% - 146px/2 - 32px);
     top: 575px; */
-    
     border: 2px solid #fff;
     border-radius: 30px;
     padding: 15px 20px;
+
+}
+
+btn-1:hover{
     cursor: pointer;
     transition: all 0.4s ease-in-out;
 }
@@ -165,8 +177,6 @@ body{
     border: 2px solid #fff;
     border-radius: 30px;
     padding: 15px 20px;
-    cursor: pointer;
-    transition: all 0.4s ease-in-out;
    
 }
 
