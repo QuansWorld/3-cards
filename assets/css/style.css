@@ -21,6 +21,7 @@ body{
     height:40px;
     padding-left: 308px;
     padding-top:219px;
+    margin-bottom:20px;
 }
 
 .suv-icons{
@@ -29,6 +30,7 @@ body{
     padding-top:219px;
     padding-left: 615px;
     position:absolute;
+    margin-bottom:30px;
 }
 
 .luxury-icons{
@@ -81,7 +83,7 @@ body{
 
 
 .feature-grid{
-    display:flex;
+    display:inline-block;
     width:920px;
     height:500px;
     /* padding-top:171px;
@@ -92,18 +94,14 @@ body{
 
 .feature-item , .feature-item-1 ,  .feature-item-3{
     flex:1;
-    border-radius:3px;
 }
 
-.feature-item-2{
-    flex:1;
-    
-}
 
 .feature-item-1{
     background-color: hsl(31, 77%, 52%);
     height:500px;
     width:307px;
+    border-radius: 8px 8px 0 0;
 }
 
 
@@ -117,6 +115,7 @@ body{
     background-color:hsl(179, 100%, 13%);
     height:500px;
     width:307px;
+    border-radius: 10px 10px 0 0;
 }
   
 
