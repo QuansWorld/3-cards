@@ -165,6 +165,7 @@ body{
 
 .btn-1:hover , .btn-2:hover , .btn-3:hover{
     cursor: pointer;
+    color:white;
    
 }
 
