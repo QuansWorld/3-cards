@@ -98,6 +98,7 @@ body{
     width:212px;
     height: 125px;
     line-height:25px;
+    margin:0px;
 }
 
 
@@ -142,6 +143,7 @@ body{
     left: calc(50% - 146px/2 - 339px);
     top: calc(50% - 48px/2 + 199px);   
     padding: 15px 20px;
+    transition:background-color 0.5s ease;
 }
 
 
@@ -161,9 +163,9 @@ body{
 
 }
 
-btn-1:hover{
+.btn-1:hover , .btn-2:hover , .btn-3:hover{
     cursor: pointer;
-    transition: all 0.4s ease-in-out;
+   
 }
 
 .btn-3{
