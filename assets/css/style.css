@@ -2,7 +2,6 @@
     body{
         max-width:1440px;
         min-width:375px;
-
     }
 } 
 
@@ -15,24 +14,26 @@ body{
     align-items: center;
 }
 
+.sr-only {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+  }
+
+
 .container{
-    max-width:960px;
-    margin:0 auto;
-    text-align: center;
+    overflow:hidden;
+    border-radius: .5rem;
 }
 
-.feature-container{
-   display:inline-flex;
-   flex-direction: row;
-   justify-items: center;
-   max-width: 320px;
-   width: 100%;
-   position:absolute;
-   padding:20px;
-   
-
+.card-component{
+    padding:2.5rem;
 }
-
 
 /* icons */
 
@@ -113,21 +114,20 @@ body{
 }
 
 
-.feature-item-1{
+.col-1{
     background-color: hsl(31, 77%, 52%);
     height:500px;
     width:307px;
-   =
 }
 
 
-.feature-item-2{
+.col-2{
     background-color: hsl(184, 100%, 22%);
     height:500px;
     width:307px;
 }
 
-.feature-item-3{
+.col-3{
     background-color:hsl(179, 100%, 13%);
     height:500px;
     width:307px;
