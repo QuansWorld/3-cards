@@ -23,12 +23,13 @@ body{
 
 .feature-container{
    display:inline-flex;
-   flex-wrap: wrap;
-    /* justify-items: center;
-    align-items: center; */
-    position:absolute;
-    padding:20px;
-    gap:none;
+   flex-direction: row;
+   justify-items: center;
+   max-width: 320px;
+   width: 100%;
+   position:absolute;
+   padding:20px;
+   
 
 }
 
@@ -143,8 +144,8 @@ body{
     width: 146px;
     height: 48px;
     position:absolute;
-    left: calc(50% - 146px/2 - 339px);
-    top: calc(50% - 48px/2 + 199px);   
+    /* left: calc(50% - 146px/2 - 339px);
+    top: calc(50% - 48px/2 + 199px);    */
     padding: 15px 20px;
     transition:background-color 0.5s ease;
 }
