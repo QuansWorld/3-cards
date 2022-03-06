@@ -165,10 +165,10 @@ footer:hover{
 
 .attribution { 
     font-size: 11px;
-    color:blueviolet;
+    color:darkblue;
     text-align: right;
     line-height: 1.5;
      
     }
 .attribution a { 
-    color: hsl(228, 45%, 44%); }
+    color: black;
