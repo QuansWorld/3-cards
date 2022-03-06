@@ -22,8 +22,7 @@ body{
 }
 
 .feature-grid{
-    display:grid; 
-    grid-template-columns: 1fr 1fr 1fr;
+   
     /* justify-items: center;
     align-items: center; */
     position:absolute;
@@ -93,6 +92,8 @@ body{
     p{
     color:hsla(0, 0%, 100%, 0.75);
     font-weight:400px;
+    display:flex;
+    justify-content: center;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
     width:212px;
@@ -165,7 +166,7 @@ body{
 
 .btn-1:hover , .btn-2:hover , .btn-3:hover{
     cursor: pointer;
-    color:white;
+    color:white; 
    
 }
 
