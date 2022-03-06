@@ -21,12 +21,14 @@ body{
     text-align: center;
 }
 
-.feature-grid{
-   
+.feature-container{
+   display:inline-flex;
+   flex-wrap: wrap;
     /* justify-items: center;
     align-items: center; */
     position:absolute;
     padding:20px;
+    gap:none;
 
 }
 
@@ -114,7 +116,7 @@ body{
     background-color: hsl(31, 77%, 52%);
     height:500px;
     width:307px;
-    border-radius: 8px 8px 0 0;
+   =
 }
 
 
@@ -128,7 +130,7 @@ body{
     background-color:hsl(179, 100%, 13%);
     height:500px;
     width:307px;
-    border-radius: 10px 10px 0 0;
+ 
 }
   
 
