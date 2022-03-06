@@ -85,7 +85,7 @@ body{
 p{
     line-height: 1.75;
     margin-bottom: 3rem;
-    font-weight: 300;
+    font-weight: 400;
     font-size: .875rem;
     color:hsl(0, 0%, 95%);
 }
@@ -131,6 +131,20 @@ p{
 
 }
 
+
+
+.btn-3{
+     color:hsl(179, 100%, 13%) ; 
+     background-color: hsl(0, 0%, 95%);
+    border-color: hsl(0, 0%, 95%);
+    border: 2px solid #fff;
+    color: hsl(184, 100%, 22%);
+    padding: .75rem 2rem;
+    border-radius: 1.5rem;
+    transition:background-color 0.5s ease;
+   
+}
+
 .btn-1:hover , .btn-2:hover , .btn-3:hover{
     cursor: pointer;
     background-color: unset;
@@ -138,24 +152,22 @@ p{
    
 }
 
-.btn-3{
-     color:hsl(179, 100%, 13%) ; 
-     background-color: hsl(0, 0%, 95%); 
-    border-radius: 15px;
-    border-color: hsl(0, 0%, 95%);
-    width: 146px;
-    height: 48px;
-    position: absolute;
-    border: 2px solid #fff;
-    border-radius: 20px;
-    padding: 15px 20px;
-   
+/* footer */
+/* 
+footer{
+    margin-top:1.5rem;
+} */
+
+footer:hover{
+    cursor: pointer;
 }
 
-/* footer */
 .attribution { 
     font-size: 11px;
-     text-align: center; 
+    color:blueviolet;
+    text-align: right;
+    line-height: 1.5;
+     
     }
 .attribution a { 
     color: hsl(228, 45%, 44%); }
