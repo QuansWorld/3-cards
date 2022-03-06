@@ -133,6 +133,8 @@ p{
 
 .btn-1:hover , .btn-2:hover , .btn-3:hover{
     cursor: pointer;
+    background-color: unset;
+    color:white;
    
 }
 
