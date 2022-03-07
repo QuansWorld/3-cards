@@ -1,9 +1,16 @@
-@media screen{
-    body{
+@media (min-width:992px){
+    .container{
+        display:flex;
+        max-width: 870px;
+        padding: 0 2rem;
+  }
+} 
+    /* body{
         max-width:1440px;
         min-width:375px;
-    }
-} 
+    } */
+
+
 
 
 
@@ -45,36 +52,17 @@ body{
     padding: 2.5rem 1rem;
 }
 /* icons */
-
-.sedan-icons{
-    width:64px;
-    height:40px;
-    padding-left: 308px;
-    padding-top:219px;
-    margin-bottom:20px;
+card-image{
+    margin-bottom:1.75rem;
 }
 
-.suv-icons{
-    width:63.99px;
-    height:40px;
-    padding-top:219px;
-    padding-left: 615px;
-    position:absolute;
-    margin-bottom:30px;
-}
-
-.luxury-icons{
-    width:64px;
-    height:40px;
-    padding-left: 921px;
-    padding-top:219px;
-    position:absolute
-}
 
  .card-title{
     color: hsl(0, 0%, 95%);
     font-weight: 700px;
-    font-family: "Big Shoulders Display", sans-serif;
+    font-family: "Big Shoulders Display";
+    font-style: normal;
+    margin-bottom:1rem;
     width: 101px;
     height:48px;  
     line-height: 48px; 
@@ -154,10 +142,7 @@ p{
 }
 
 /* footer */
-/* 
-footer{
-    margin-top:1.5rem;
-} */
+
 
 footer:hover{
     cursor: pointer;
