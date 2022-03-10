@@ -131,10 +131,9 @@ p{
 footer{
     position:fixed;
     bottom: 0;
-    margin-top:1.5rem;
-    /* right: 0; */
-    width: 100%;
-    text-align:center;
+     right: 0; 
+     width: 100%; 
+     text-align:right; 
 }
 
 footer:hover{
@@ -157,7 +156,7 @@ footer:hover{
          max-width:870px;
          padding:0 2 rem;
     }
-    
+
     .card-container{
         display: flex;
        
