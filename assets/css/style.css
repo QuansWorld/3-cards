@@ -79,30 +79,26 @@ p{
     background-color:hsl(179, 100%, 13%);
 }
   
+.btn{
+    font-size: .85rem;
+    padding: .75rem 2rem;
+    border-radius: 1.5rem;
+    border: 2px solid #fff;
+    transition: background-color 0.5s ease;
+}
 
 .btn-1{
     color: hsl(31, 77%, 52%);
-    font-size: .85rem;
     background-color: hsl(0, 0%, 95%);
-    border: 2px solid #fff;
-    border-radius:20px;
     border-color: hsl(0, 0%, 95%);
-    padding: .75rem 2rem;
-    border-radius: 1.5rem;
-    transition:background-color 0.5s ease;
+  
 }
 
 
 .btn-2{
+    color: hsl(184, 100%, 22%);
     background-color: hsl(0, 0%, 95%);
     border-color: hsl(0, 0%, 95%);
-    border: 2px solid #fff;
-    color: hsl(184, 100%, 22%);
-    padding: .75rem 2rem;
-    border-radius: 1.5rem;
-    transition:background-color 0.5s ease;
- 
-
 }
 
 
@@ -110,13 +106,8 @@ p{
 .btn-3{
      color:hsl(179, 100%, 13%) ; 
      background-color: hsl(0, 0%, 95%);
-    border-color: hsl(0, 0%, 95%);
-    border: 2px solid #fff;
-    color: hsl(184, 100%, 22%);
-    padding: .75rem 2rem;
-    border-radius: 1.5rem;
-    transition:background-color 0.5s ease;
-   
+     border-color: hsl(0, 0%, 95%);
+     position: fixed;
 }
 
 .btn-1:hover , .btn-2:hover , .btn-3:hover{
@@ -154,7 +145,7 @@ footer:hover{
 @media (min-width:870px){
     .feature-container{
          max-width:870px;
-         padding:0 2 rem;
+         padding:0 2rem;
     }
 
     .card-container{
