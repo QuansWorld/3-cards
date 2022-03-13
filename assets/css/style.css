@@ -28,8 +28,8 @@ body{
 
 
 .feature-container{
-    max-width: 320px;
-    width: 100%;
+    max-width: 300px;
+    /* width: 100%; */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -62,6 +62,7 @@ p{
     font-size: .875rem;
     color:hsl(0, 0%, 95%);
     font-family:"Lexend Deca";
+    margin:0px 0px 64px;
 }
 
 
@@ -80,7 +81,9 @@ p{
 }
   
 .btn{
-    font-size: .85rem;
+    font-size: 14px;
+    font-family:"Lexend Deca";
+    font-weight:bold;
     padding: .75rem 2rem;
     border-radius: 1.5rem;
     border: 2px solid #fff;
@@ -107,13 +110,13 @@ p{
      color:hsl(179, 100%, 13%) ; 
      background-color: hsl(0, 0%, 95%);
      border-color: hsl(0, 0%, 95%);
-     position: fixed;
 }
 
 .btn-1:hover , .btn-2:hover , .btn-3:hover{
     cursor: pointer;
     background-color: unset;
     color:white;
+    /* margin: */
    
 }
 
