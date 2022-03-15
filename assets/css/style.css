@@ -61,7 +61,7 @@ p{
     font-weight: 400;
     font-size: .875rem;
     color:hsl(0, 0%, 95%);
-    font-family:"Lexend Deca";
+    font-family:"Lexend Deca" sans-serif;
     margin:0px 0px 64px;
 }
 
